@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> HOMEPAGE</title>
+        <link rel="stylesheet" href = "index.css" type = "text/css">
+    </head>
+
+
+    <body>
+        <h3 id = "welcome"> WELCOME TO MY FOOD WEBSITE! </h3>
+        <h1 id = "hessieSePlaaskombuis"> HESSIE SE PLAASKOMBUIS </h1>
+        <h2 id = "byHettieSteenkamp"> by Hettie Steenkamp </h2>
+
+
+
+    <table>
+        <tr>
+            <th>
+                <div>
+                    <h3 id="head" >Home</h3>
+                </div>
+            </th>
+            <th>
+                    <div id="head" class="dropdown">
+                        <h3 class="dropbtn">Recipes</h3>
+                        <div class="dropdown-content">
+                          <a href="#">Starters</a>
+                          <a href="#">Main</a>
+                          <a href="#">Dessert </a>
+                        </div>
+            </th>
+            <th>
+                <div>
+                  <h3 id="head">Blog</h3>
+              </div>
+            </th>
+            <th>
+              <div>
+                <h3 id="head">Contact</h3>
+            </div>
+            </th>
+         
+        </tr>
+
+
+    </table>
+    
+</div>
+        <style>
+       
+            
+            .dropdown {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f1f1f1;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+            
+            .dropdown-content a:hover {background-color: #ddd;}
+            
+            .dropdown:hover .dropdown-content {display: block;}
+            
+            .dropdown:hover .dropbtn {background-color: #3e8e41;}
+            </style>
+                   <body>
+          
+     
+            
+
+        <div class = "row2">
+            <div class = "column2"> <img id = "aboutMePicture" src = "https://i.pinimg.com/236x/1c/5f/b2/1c5fb27704a34a04816a48617440dc41.jpg">
+            </div>
+            <div class = "column2"> <img  id = "bakedGoodsPicture" src = "https://i.pinimg.com/236x/4c/c8/87/4cc887724cf96e419556b4c81edc9592.jpg">
+            </div>
+            <div class = "column2"> <img id = "mainsPicture" src = "https://i.pinimg.com/236x/9c/ea/6c/9cea6c062be87f478e00afb86b4d2edd.jpg">
+            </div>
+            <div class = "column2"> <img id = "dessertPicture" src = "https://i.pinimg.com/236x/f1/b2/e8/f1b2e80551ba128c464077ff740e0129.jpg">
+            </div>
+            <div class ="column2"> <img id = "contactPicture" src = "https://i.pinimg.com/236x/56/c4/c9/56c4c99f8b6c96297c2aa3d1dfe109e3.jpg">
+            </div>
+        </div>
+
+
+        
+
+        
+        
+      
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <script>
+      $(document).ready(function(){
+        $("button").click(function(){
+          $("#p1").css("color", "red")
+            .slideUp(2000)
+            .slideDown(2000);
+        });
+      });
+      </script>
+      </head>
+      <body>
+      
+      <p id="p1">"I have lost track of how many times I have made this recipe. Each and every time it turns out absolutely perfect. That is not a testament to my baking ability as much as it is to the ease and performance of the recipe itself. Often I have made it for friends and family and always get a call back about how delicious it is. This is a recipe staple for me!"<br>- random internet review</p>
+    </p>
+      
+      <button id="reviewBtn">Click me</button>
+
+
+      
+
+
+<h3 id = "subscribe"> SUBSCRIBE</h3>
+<p id = "subscribeText"> Subscribe to our weekly newsletter! </p>
+      <form id="subsbribeForm">
+        <table>
+            <tr>
+                <th> NAME </th>
+                <td><input type ="text" name = "Name"></td>
+            </tr>
+
+            <tr>
+                <th> EMAIL </th>
+                <td> <input type = "email" name = "Email" ></td>
+            </tr>
+            
+            <tr>
+                <td colspan = "2" ><input type ="submit" value = "Submit"></td>
+            </tr>
+        </table>
+      </form>
+
+      <script src="index.js"></script>
+
+    </body>
+
+
+</html>

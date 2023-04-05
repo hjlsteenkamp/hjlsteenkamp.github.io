@@ -1,0 +1,86 @@
+$fontSizeOne: 14px;
+$fontSizeTwo: 30px;
+$fontSizeThree: 60px;
+$fontFamily1: Courier New;
+$fontFamily2: arial;
+$fontWeight: Lighter;
+$letterSpacing: 3px;
+
+#bakedGoods{
+    margin-top:200px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-family: $fontFamily1;
+    font-size: $fontSizeThree;
+    font-weight: $fontWeight;
+    letter-spacing:$letterSpacing;
+}
+
+#bread{
+    text-align: center;
+    font-family: $fontFamily1;
+    font-size: $fontSizeThree;
+    letter-spacing:$letterSpacing;
+}
+
+a{
+    text-align: center;
+    margin-left: 700px;
+}
+
+#table{
+width:350px;
+height:100px;
+text-align: left;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+font-family: $fontFamily1;
+font-size: 20px;
+font-weight: $fontWeight;
+letter-spacing:$letterSpacing;
+}
+
+#instructions{
+    margin-top: 100px;
+    text-align: center;
+    font-family: $fontFamily1;
+    font-size: $fontSizeTwo;
+       font-weight: $fontWeight;
+    letter-spacing:$letterSpacing;
+
+}
+
+#breadInstructions{
+
+        margin-top: 80px;
+        margin-bottom: 200px;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: left;
+        font-family: $fontFamily2;
+        font-size: $fontSizeOne;
+        letter-spacing:$letterSpacing;
+        line-height: 25px;
+}
+
+#radioInput{
+    margin-top: 250px;
+    text-align: center;
+    font-family: $fontFamily1;
+    font-size: $fontSizeTwo;
+    font-weight: $fontWeight;
+    letter-spacing:$letterSpacing;
+
+}
+
+label{
+
+    display:  block;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: $fontSizeTwo;
+    letter-spacing:$letterSpacing;
+    text-align: center;
+}

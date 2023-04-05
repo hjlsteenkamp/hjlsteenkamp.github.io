@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+        <title id="x">RECIPES</title>
+    </head>
+
+
+    <body>
+       
+        <h1 id="recipe">Recipe</h1>
+
+        <a href="www.youtube.com/watch?v=BsgUcpTLQww" > Watch this tutorial on how to bake bread!</a>
+
+
+        <div  class="card" style="width: 18rem;" action="savedRecipes.html" >
+            <img src="" class="card-img-top" alt="..." id="img">
+            <div class="card-body">
+              <h5 class="card-title" id="title"></h5>
+              <h6 id="ingredientsH"></h6>
+              <p class="card-text" id="ingredients">
+                </p>
+                <h6 id="methodH"></h6>
+                <p class="card-text" id="method">
+                    Arrange cooked fish in a deep baking tray or large bowl with a lid.
+                    Combine water, vinegar, bay leaves and all spices in a large pot and boil the mixture for about 8 minutes.
+                    Add sugar and jam and simmer on high for 10-12 minutes.
+                    Combine cornflour and ¼ cup (60ml) pickling sauce in a separate bowl until smooth.
+                    Whisk mixture into pot and simmer for 5 minutes, or until sauce has thickened slightly. Taste sauce and adjust seasoning as desired.
+                    Add onion rings and simmer for 5 minutes.
+                    Pour over fish and cool completely. Cover and refrigerate (do not cover with a lid).
+                    Pickle for at least 48 hours before serving, or store for up to 3 weeks.
+                    Serve with garlic naan, hot cross buns, rotis or a side salad.</p>
+
+              <a href="#" class="btn btn-primary" id="Btn">Save for later</a>
+            </div>
+          </div><br><br><br><br>
+
+
+          <div class="card" style="width: 18rem;">
+            <img id="imgSoup" src="" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"  id="titleSoup"></h5>
+              <h6 id="ingredientsHSoup"></h6>
+              <p class="card-text" id="ingredientsSoup">
+        
+                </p>
+                <h6 id="methodHSoup"></h6>
+                <p class="card-text" id="methodSoup">
+                   </p>
+
+              <a href="#" class="btn btn-primary" id="BtnSoup">Save for later</a>
+            </div>
+          </div><br><br><br><br>
+
+
+
+          <div class="card" style="width: 18rem;">
+            <img id="imgEggs" src="\" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"  id="titleEggs"></h5>
+              <h6 id="ingredientsHEggs"></h6>
+              <p id="ingredientsEggs" class="card-text">
+                </p>
+                <h6 id="methodHEggs"></h6>
+                <p class="card-text" id="methodEggs">
+                   </p>
+              <a href="#" class="btn btn-primary" id="BtnEggs">Save for later</a>
+            </div>
+          </div><br><br><br><br>
+
+
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label >Enter your comment here!</label>
+              <input type="password" class="form-control" id="inputComment">
+            </div>
+            <button type="submitCommentBtn" class="btn btn-primary">Submit</button>
+          </form><br><br>
+
+    
+
+          
+
+          <button id="savedRecipesBtn">View your saved recipes here!</button><br><br>
+
+     <h2 id = "radioInput"> What recipe should we do next? </h2> 
+
+      <div class ="container">
+        <label>
+            <input type = "radio" name = "option" />
+            <span> Homemade rusks </span>
+        </label>
+        <label>
+            <input type = "radio" name = "option" />
+            <span> Bobotie </span>
+        </label>
+        <label>
+            <input type = "radio" name = "option" />
+            <span> Baked custard </span>
+        </label>
+      </div>
+
+
+      <script src="recipes.js"></script>
+
+    </body>
+
+</html>
